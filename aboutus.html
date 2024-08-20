@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+</head>
+
+<style>
+    h2{
+        background-color: gray;
+        color: white;
+        border-radius: 20px;
+        padding: 5px 5px 10px 5px;
+        box-shadow: 5px 5px 15px 5px black;
+    }
+    .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+.container5 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.h3a {
+  text-align: center;
+  color: yellowgreen;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+p{
+  text-align: center;
+}
+i{
+  color: yellowgreen;
+}
+
+
+.team-member {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.team-member h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  line-height: 1.6;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-member:nth-child(even) {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .team-members {
+    flex-direction: column;
+  }
+  .team-member:nth-child(even) {
+    margin-left: 0;
+  }
+}
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- <a class="navbar-brand" href="#">Sneh Animal Welfare Society</a> -->
+   <img src="images/logo.jpg" style="width: 70px; height: 60px; margin-bottom: 18px;">
+   <h1 style="color: yellowgreen; font-family: Papyrus; ">Sneh Animal Welfare Society</h1>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">AboutUs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">Gallery</a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contactus.html">ContactUs</a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="project.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="certificate.html">AWBICertification</a>
+        </li>
+      </ul>
+  </div>
+</nav>
+
+
+    <body>
+   
+     
+
+
+      <div class="container5">
+        <h2 style="text-align: center;">Our Team</h2>
+      
+        <div 
+        class="team-members">
+          <div data-aos="flip-up"
+           class="team-member">
+            <img src="images/hemant.jpg" alt="dr. ajay panghal">
+            <h3 class="h3a"><b>Dr. Ajay Panghal</b></h3>
+            <p>I've always had a deep love for animals and a desire to make a positive impact on their lives. When I saw the opportunity to work with the Animal Welfare Society, I knew it was the perfect way to combine my passion for veterinary medicine with my commitment to animal welfare. <br>
+              <i> "Until one has loved an animal, a part of one's soul remains unawakened." </i></p>
+          </div>
+      
+          <div data-aos="flip-up"
+          class="team-member">
+            <img src="images/hemant.jpg" alt="Hemant sheoran">
+            <h3 class="h3a"> <b>Mr. Hemant Shoeran</b></h3>
+            <p>As the cofounder of our Animal Welfare Society, I believe that every act of kindness towards animals is a step towards a more compassionate world. Our mission is not just to rescue, but to educate and inspire others to cherish and protect all living beings. <br>
+             <i> "The greatness of a nation and its moral progress can be judged by the way its animals are treated."</i> </p>
+          </div>
+      
+          <div data-aos="flip-up"
+          class="team-member">
+            <img src="images/2.jpg" alt="workers">
+            <h3 class="h3a"><b> Workers of Society</b></h3>
+            <p>"As dedicated workers of the Animal Welfare Society, we are driven by the profound belief that every animal deserves a life filled with love and care. Each day, we strive to be the voice for those who cannot speak for themselves, ensuring their well-being and dignity." <br>
+           <i> "The love for all living creatures is the most noble attribute of man."</i></p>
+          </div>
+      
+          
+        </div>
+      </div>
+
+
+      <div class="grid-container">
+        <div  data-aos="flip-up"
+        class="grid-item mission">
+          <h2>Our Mission</h2>
+          <p style="margin-top: 40px;">Our mission is to catch the Stray dogs of the city which is choosen under a mission. We vaccinate and sterilize them and leave those dogs on the same safe place where they can live peacefully.</p>
+        </div>
+        <div  data-aos="flip-up"
+         class="grid-item values">
+          <h2>Our Values</h2>
+          <p style="margin-top: 40px;">We are recognized with Animal Welfare Board Of India(AWBI) With recognition number - HR 337/ 2021. We provide our genuine services and also we have worked on many projects to control the dogs population.</p>
+        </div>
+        <div  data-aos="flip-up"
+        class="grid-item dream">
+          <h2>Our Dream</h2>
+          <p style="margin-top: 40px;">It is our dream to control the diseases which are spread because of the stray dogs present all over the INDIA by strelization and vaccinating them against rabies. And also to help the every dog which is suffering from various diseases. </p>
+        </div>
+        <div  data-aos="flip-up"
+        class="grid-item goals">
+          <h2>Our Goals</h2>
+          <p style="margin-top: 40px;">Our goal is to provide the best services from our side so that animals won't be hurted and they feel safe with us. We try our best to keep them happy and keep them away from diseases so that we human also can feel safe around them.</p>
+        </div>
+      </div>
+
+
+
+
+    </body>
+    <footer>
+      <div class="footer-content">
+       
+        <div class="footer-section">
+         
+          <h3 style="color: yellowgreen">Contact Information</h3>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> &nbsp;Address: Sneh Animal Welfare Society, Maheshwari, Dharuhera Rewari(Haryana)
+            </li>
+            <li><i class="fa-solid fa-phone-volume"></i> &nbsp;Phone: +91 74041 18009</li>
+            <li><i class="fa-solid fa-envelope"></i> &nbsp;Email: <a href="mailto:snehaws86@gmail.com">snehaws86@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3 style="color: yellowgreen">Quick Links</h3>
+          <ul>
+            <li><i class="fa-solid fa-diamond-turn-right"></i><a href="map.html"> &nbsp;Directions to Society</a></li>
+            <li><i class="fa-solid fa-handshake"></i><a href="form.html"> &nbsp;Be a member</a></li>
+            <li><i class="fa-solid fa-user-group"></i><a href="developers.html"> &nbsp;contact website developers</a></li>
+  
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3 style="color: yellowgreen">Social Media</h3>
+          <ul>
+            <li><i class="fa-brands fa-facebook"></i><a href="#"
+                target="_blank"> &nbsp;Facebook</a></li>
+            <li><i class="fa-brands fa-twitter"></i><a href="#" target="_blank"> &nbsp;Twitter</a>
+            </li>
+            <li><i class="fa-brands fa-instagram"></i><a href="#"
+                target="_blank"> &nbsp;Instagram</a></li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; Copyright 2024 Sneh welfare Society. All rights reserved.</p>
+      </div>
+      <div>
+        <!-- <p> Managed by Samundr, Tannu.</p> -->
+      </div>
+    </footer>
+    
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</html>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
+
+</body>
+</html>
